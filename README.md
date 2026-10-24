@@ -34,3 +34,5 @@ Version 1.1.2 restores the compact Overview with four quick automation toggles. 
 Changing focus keeps the automation session active: inputs wait while the controller or another app has focus, then resume when an assigned Roblox window is selected. Stop and emergency shortcuts still stop explicitly.
 
 Version 1.1.2 replaces the native tab border with rounded section buttons, forces compact Overview sizing at startup, and uses borderless text areas and a slim themed Settings scrollbar.
+
+The v1.1.2 download has been refreshed with custom themed number steppers and dropdown pickers across the controller editors, plus corrected rounded-control backgrounds. The version number is unchanged; re-download the ZIP to get this refresh.
