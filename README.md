@@ -6,10 +6,23 @@ I publish compiled downloads for Swordburst 2 Controller here. Application sourc
 
 ## Download
 
-Open **Releases**, select **v1.0.0** or a newer release, and download **Swordburst_2_Controller_v1.0.0_win-x64.zip** from its assets. Extract the entire ZIP and run **Swordburst2Controller.exe**. Keep the included files and folders together. **SHA256SUMS.txt** contains the download checksum.
+Open **Releases**, select **v1.1.0** or a newer release, and download **Swordburst_2_Controller_v1.1.0_win-x64.zip** from its assets. Extract the entire ZIP and run **Swordburst2Controller.exe**. Keep the included files and folders together. **SHA256SUMS.txt** contains the download checksum.
 
 GitHub's automatic **Source code** archives contain this public repository's documentation, not the application source or the runnable download.
 
 Check Diagnostics and test F6 (pause), F7 (exit), and Ctrl+Shift+F7 (backup exit) before enabling automation. Existing settings remain in %LOCALAPPDATA%\RobloxController.
 
 This is an unofficial, unsigned utility, not affiliated with Roblox or the Swordburst 2 developers. Game and server rules apply.
+
+## Version 1.1.0
+
+- Stop preserves the button action even when focusing the panel pauses automation, and releases controller-held inputs immediately.
+- Discord Start macro / Stop macro controls require permission in Details → Discord. Remote Start also enforces foreground and account checks.
+- Ordinary automation never presses left-click. A confirmed revive can click its verified button; after two positive HP samples, recovery holds left, opens inventory with E, releases left, then closes inventory with E. Stop or lost focus cancels the sequence.
+- HP uses multiple rows and a continuous fill check. Unreadable HP is shown as unknown rather than 0%; the revive prompt independently confirms death.
+- OCR Setup can enable an experimental right-side rare-drop reader using separately installed Tesseract. It looks for skill/rare/epic/legendary/mythic/unique text, masks green/blue text, and ignores crystals and vel. Crops are processed locally and deleted. Results appear in Details and, when status sharing is enabled, the private Discord dashboard. Accuracy depends on text scale and effects; it is not a guaranteed drop log.
+- Discord screenshots/configs/logs use temporary memory-only transfer; attachment messages expire after ten minutes.
+
+### Memory usage
+
+Use fewer simultaneous Roblox clients, lower the in-game graphics setting, close Account Utils sign-in windows after launching, and restart a client that grows continuously. Account Utils shows each client’s RAM use. There is no forced memory trim or Roblox file modification. Lower graphics mainly helps graphics load and may not reduce every game’s RAM use.
