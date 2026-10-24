@@ -6,7 +6,7 @@ I publish compiled downloads for Swordburst 2 Controller here. Application sourc
 
 ## Download
 
-Open **Releases**, select **v1.1.1** or a newer release, and download **Swordburst_2_Controller_v1.1.1_win-x64.zip** from its assets. Extract the entire ZIP and run **Swordburst2Controller.exe**. Keep the included files and folders together. **SHA256SUMS.txt** contains the download checksum.
+Open **Releases**, select **v1.1.2** or a newer release, and download **Swordburst_2_Controller_v1.1.2_win-x64.zip** from its assets. Extract the entire ZIP and run **Swordburst2Controller.exe**. Keep the included files and folders together. **SHA256SUMS.txt** contains the download checksum.
 
 GitHub's automatic **Source code** archives contain this public repository's documentation, not the application source or the runnable download.
 
@@ -14,7 +14,7 @@ Check Diagnostics and test F6 (pause), F7 (exit), and Ctrl+Shift+F7 (backup exit
 
 This is an unofficial, unsigned utility, not affiliated with Roblox or the Swordburst 2 developers. Game and server rules apply.
 
-## Version 1.1.1
+## Version 1.1.2
 
 - Stop preserves the button action even when focusing the panel pauses automation, and releases controller-held inputs immediately.
 - Discord Start macro / Stop macro controls require permission in Details → Discord. Remote Start also enforces foreground and account checks.
@@ -29,6 +29,8 @@ Use fewer simultaneous Roblox clients, lower the in-game graphics setting, close
 
 ## Compact layout and Settings
 
-Version 1.1.1 restores the compact Overview with four quick automation toggles. Settings and Details expand only when selected. All editable controls and the existing account, skill, input, revive, theme, OCR, config, and Discord editors are accessible from Settings. Shortcut modifiers display their full Ctrl, Alt, and Shift labels, and long shortcut text wraps.
+Version 1.1.2 restores the compact Overview with four quick automation toggles. Settings and Details expand only when selected. All editable controls and the existing account, skill, input, revive, theme, OCR, config, and Discord editors are accessible from Settings. Shortcut modifiers display their full Ctrl, Alt, and Shift labels, and long shortcut text wraps.
 
 Changing focus keeps the automation session active: inputs wait while the controller or another app has focus, then resume when an assigned Roblox window is selected. Stop and emergency shortcuts still stop explicitly.
+
+Version 1.1.2 replaces the native tab border with rounded section buttons, forces compact Overview sizing at startup, and uses borderless text areas and a slim themed Settings scrollbar.
