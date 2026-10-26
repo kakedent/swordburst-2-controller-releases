@@ -1,5 +1,7 @@
+<img src="Assets/KakedenController.png" width="96" alt="kakeden logo">
+
 # Swordburst 2 Controller
-By 1kakeden.
+By kakeden.
 
 A small Windows tool for managing Swordburst 2 windows, with configurable healing, blocking, skills, and optional Discord controls.
 
